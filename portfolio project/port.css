@@ -104,7 +104,7 @@ nav ul li a:hover{
     margin: 30px 30px ;
     border-color: 2px solid  #c4baff;
     margin-left: -180px;
-     margin-top: 60px;
+     margin-top: 90px;
     height: 300px;
     width: 300px;
     
@@ -168,10 +168,9 @@ nav ul li a:hover{
 .resume:hover {
     background-color: #5e60ce;
 }
- .social-icon{
-    height: 50px;
-    width: 50px;
- }
+ 
+     
+  
 /* about */
 
     /* General Styles for About Section */
@@ -514,3 +513,20 @@ form textarea {
     color: white;
     text-align: center;
   }
+  .social-links {
+    display: flex;
+    gap: 10px; /* Space between icons */
+    justify-content: center; /* Center-align if needed */
+}
+
+.icon {
+    width: 40px; /* Icon size */
+    height: 40px;
+    border-radius: 20px;
+    transition: transform 0.2s; /* Animation on hover */
+  }
+  
+  .icon:hover {
+    transform: scale(1.1); /* Slightly enlarges the icon on hover */
+  }
+  
